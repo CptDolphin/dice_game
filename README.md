@@ -3,17 +3,19 @@
 ## On mac
 
 #Install Homebrew
-ruby -e "$(curl ~fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"] \
+ruby -e "$(curl ~fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"] 
 
 #Install Node.js
-brew install node \
+brew install node 
 
 #And all the modules
 npm install
 
 //# Install Grunt
 //npm install -g grunt-cli; 
+
 //npm i -D eslint@latest 
+
 //npm i pm2@latest 
 
 #Start the server
