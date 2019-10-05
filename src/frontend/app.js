@@ -24,7 +24,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
         var diceDOM = document.querySelector('.dice');
         diceDOM.style.display = 'block';
-        diceDOM.src = 'dice-' + dice + '.png';
+        diceDOM.src = '../../assets/dice-' + dice + '.png';
         
         if (dice !== 1) {
             roundScore += dice;
@@ -60,7 +60,7 @@ function nextPlayer() {
     document.querySelector('.dice').style.display = 'none';
 
     activaPlayer = activePlayer === 0 ? 1 : 0;
-    roundScore = 0
+    roundScore = 0;
 
     current0.textContent = '0';
     current1.textContent = '0';
@@ -72,7 +72,7 @@ function init() {
     roundScore = 0;
     gamePlaying = true;
     
-    document.querySelector('.dice').style.display = 'none'
+    document.querySelector('.dice').style.display = 'none';
 
     document.getElementById('score-0').textContent = '0';
     document.getElementById('score-1').textContent = '0';
