@@ -87,7 +87,7 @@ function init() {
     activePlayer = 0;
     roundScore = 0;
     gamePlaying = true;
-    /*
+    
     document.querySelector('.dice').style.display = 'none'
 
     document.getElementById('score-0').textContent = '0';
@@ -106,4 +106,9 @@ function init() {
     player0.classList.remove('active');
     player0.classList.add('active');
     player1.classList.remove('active');
-    */}
+}
+
+
+
+
+
