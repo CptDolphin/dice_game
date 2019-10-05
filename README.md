@@ -2,7 +2,7 @@
 
 ## On mac
 
-brew install node
-npm install -g grunt-cli
-npm init -y
-npx pm2 --watch ./server.js --name abc --attach  start ./server.js
+brew install node; \
+npm install -g grunt-cli; \
+npm init -y; \
+npx pm2 --watch ./server.js --name abc --attach  start ./server.js; \

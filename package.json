@@ -1,7 +1,7 @@
 {
   "name": "myown",
   "version": "1.0.0",
-  "description": "",
+  "description": "## On mac",
   "main": "hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,16 @@
   "license": "ISC",
   "devDependencies": {
     "pm2": "^3.5.1"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CptDolphin/dice_game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CptDolphin/dice_game/issues"
+  },
+  "homepage": "https://github.com/CptDolphin/dice_game#readme"
 }
