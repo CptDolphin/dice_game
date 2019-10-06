@@ -17,7 +17,7 @@ http.createServer(function (request, response) {
 	console.log('item', item)
 
 	if (!item) {
-		response.end('Sorry didnt find the file');
+        response.end('Sorry didnt find the file, try ending the url with /html -> 127.0.0.1:8000/html');
 		return;
 	}
 

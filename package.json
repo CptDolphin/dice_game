@@ -1,8 +1,8 @@
 {
   "name": "myown",
   "version": "1.0.0",
-  "description": "## On mac",
-  "main": "hello.js",
+  "description": "DiceGame",
+  "main": "server.js",
   "scripts": {
     "dev": "pm2 --watch src/backend/ --name app --attach --max-restarts 1 start src/backend/server.js"
   },

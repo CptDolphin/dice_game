@@ -17,4 +17,5 @@ npm install
 - npm i pm2@latest 
 
 ## Start the server
-npx pm2 --watch src/backend/server.js --name dice-game --attach start ./src/backend/server.js;
+- npx pm2 --watch src/backend/server.js --name dice-game --attach start ./src/backend/server.js;
+- or run: npm run dev

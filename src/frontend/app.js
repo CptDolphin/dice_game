@@ -59,7 +59,7 @@ function nextPlayer() {
 
     document.querySelector('.dice').style.display = 'none';
 
-    activaPlayer = activePlayer === 0 ? 1 : 0;
+    activePlayer = activePlayer === 0 ? 1 : 0;
     roundScore = 0;
 
     current0.textContent = '0';
