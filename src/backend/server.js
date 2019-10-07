@@ -22,7 +22,7 @@ http.createServer(function (request, response) {
 	}
 
 	if (!item.result) {
-		fs.readFile(path.join(__dirname, '../..', request.url.slice(1)), (err, content) => {
+        fs.readFile(path.join(__dirname, '../../', request.url.slice(1)), (err, content) => {
 			if (err) {
 				console.error(err);
 				response.writeHead(400, {});
