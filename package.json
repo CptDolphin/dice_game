@@ -4,6 +4,7 @@
   "description": "DiceGame",
   "main": "server.js",
   "scripts": {
+    "start" : "rollup -c",
     "dev": "pm2 --watch src/backend/ --name app --attach --max-restarts 1 start src/backend/server.js"
   },
   "keywords": [],
@@ -23,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/CptDolphin/dice_game/issues"
   },
-  "homepage": "https://github.com/CptDolphin/dice_game#readme"
+  "homepage": "https://github.com/CptDolphin/dice_game#readme",
+  "dependencies": {
+    "rollup": "^1.23.1"
+  }
 }
