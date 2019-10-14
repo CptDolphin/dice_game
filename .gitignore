@@ -100,3 +100,6 @@ public
 test.txt
 test2.txt
 tests
+.DS_Store
+./*/.DS_Store
+
